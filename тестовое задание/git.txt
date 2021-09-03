@@ -1,0 +1,5 @@
+git clone  git@example.com:example/test.git |клонируем репозиторий
+git checkout <dev>|переходим в ветку dev
+touch README.md|добавляем readme файл
+nano README.md ### May be in future|добавляем строку ### May be in future
+git commit|коммит

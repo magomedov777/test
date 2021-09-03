@@ -1,0 +1,4 @@
+1. > db.posts.properties.find().skip(5); #пропускаем первые 5 записей.
+2. > db.users.find( { like: { $gte: 100} } );
+3. > db.posts.properties.insertOne({}); #добавляем новую запись в коллекцию 'posts'.
+4.

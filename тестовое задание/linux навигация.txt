@@ -1,0 +1,26 @@
+Linux навигация и поиск
+
+/
+--/var/
+----/www/
+------/html/
+--------/index.html
+--------/404.html
+--------/.htaccess
+----/logs/
+------/access.log
+
+
+1. cd/html/ ls # Перехожу в папку html. С помощью команды 'ls' вывожу список всех файлов в папке html.
+
+2. cd/access.log/grep -r "404" # Нахожу все упоминания "404".
+
+3. 
+
+4. cd/index.html/ chmod u+rw index.html #чтение и запись | chmod g www-data+r index.html #только чтение | chmod o-rwx index.html #нет доступа 
+
+5. cd/html/ ln -s /access.log link #Перехожу в папку html. Создаю символическую ссылку.
+
+6. cd/var/ ls # Перехожу в папку var. С помощью команды 'ls' вывожу список всех файлов в папке var.
+
+7. cd/html touch 503.html. <<EOF <html> <head> <title>503</title> </head> </html> EOF #создаем файл с помощью touch, помещаем содержимое через EOF

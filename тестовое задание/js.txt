@@ -1,0 +1,79 @@
+1. const user = { name: 'ABC', email: 'ABCD', age: 30 };
+const copyUser = Object.assign({}, user);
+user === copyUser;
+
+
+
+2. var arrays = [[1, 2, 3], [4, 5], [6]];
+arrays = arrays.reduce(function(a, b) {
+    return a.concat(b);
+});
+
+3.
+
+
+
+4. var arr = [1, 2, 3];
+arr.reverse().push(0);
+arr.reverse();
+
+5. var forArr = ['Solnce', 'vishlo', 'iz', 'za', 'tuchi'];
+
+function recuselog(array) {
+  if (array.length > 0) {
+    console.log(array.shift());
+    recuselog(array);
+  }
+}
+recuselog(forArr);
+
+
+6.
+
+
+
+7.let arr = ['one', 'two', 'three', 'four', 'five', 'six', 'seven'];
+let itm = "four";
+for (i = 0; i < arr.length; i++) {
+  if (itm == arr[i]) {
+    alert("найден"+arr[i])
+  }
+}
+
+
+8. let arr = ['one', 'two', 'three', 'four', 'five', 'six', 'seven'];
+let func = arr.splice(0,3)
+
+
+
+
+9.
+
+
+
+
+10. function unique(arr) {
+    let result = [];
+  
+    for (let str of arr) {
+      if (!result.includes(str)) {
+        result.push(str);
+      }
+    }
+  
+    return result;
+  }
+  
+  let strings = ["one", "two", "three", "four",
+    "five", "six", "seven", 
+  ];
+  
+  alert( unique(strings) );
+
+
+
+11.
+
+
+
+12.
